@@ -48,7 +48,6 @@ public class RequirementDaoImpl implements RequirementDao{
 		return isRegistered;
 	}
 	
-	//check whether the requirement id is present or not
 	@Override
 	public boolean checkReqId(int num) {
 		Connection con=null;

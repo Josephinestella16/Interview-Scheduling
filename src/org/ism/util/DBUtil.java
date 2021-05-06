@@ -8,17 +8,6 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class DBUtil {
-//	public static Connection getConnection(String driver,String url,String userName,String password) {
-//		Connection con=null;
-//		try {
-//			Class.forName(driver);
-//			con=DriverManager.getConnection(url,userName,password);
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//		return con;
-//	}
-
 	private static Connection connection = null;
     private static Properties properties = new Properties();
 	

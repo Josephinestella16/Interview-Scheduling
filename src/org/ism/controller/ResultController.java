@@ -7,10 +7,7 @@ import org.ism.model.Candidate;
 import org.ism.services.InterviewServiceImpl;
 @SuppressWarnings("resource")
 public class ResultController {
-
 	static InterviewServiceImpl service = new InterviewServiceImpl();
-	
-
 	public static void markCalculator() {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter Requirement ID :");

@@ -63,3 +63,4 @@ public class InterviewServiceImpl implements InterviewService{
 		dao.reduceVacancy(id);
 	}
 }
+

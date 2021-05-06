@@ -29,7 +29,6 @@ public class InterviewDaoImpl implements InterviewDao{
 				r.next();
 				int count = r.getInt("rowcount") ;
 				r.close() ;
-//				System.out.println("Count "+count);
 				if(count == 0)
 					isPresent=true;
 			}
@@ -91,7 +90,6 @@ public class InterviewDaoImpl implements InterviewDao{
 		}
 		return candidates;
 	}
-//	Requirement 
 	@Override
 	public Requirement getRequirement(int id) {
 		Connection con = null;
@@ -185,8 +183,6 @@ public class InterviewDaoImpl implements InterviewDao{
 		}
 	}
 	
-	
-	//5th requirement
 	@Override
 	public boolean isPresent(int id) {
 		Connection con=null;
@@ -218,7 +214,6 @@ public class InterviewDaoImpl implements InterviewDao{
 		return isPresent;
 	}
 	
-	//Checking the mark is entered already for the interview
 	@Override
 	public boolean isChecked(String id) {
 		Connection con=null;

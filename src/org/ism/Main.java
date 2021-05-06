@@ -1,14 +1,11 @@
 package org.ism;
-
 import java.util.Scanner;
 
 import org.ism.controller.CandidateController;
 import org.ism.controller.InterviewController;
 import org.ism.controller.RequirementController;
 import org.ism.controller.ResultController;
-
 public class Main {
-
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
