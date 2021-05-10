@@ -248,7 +248,7 @@ public class InterviewDaoImpl implements InterviewDao{
 	@Override
 	public Candidate getCandidateDetail(int id) {
 		Connection con = null;
-		 
+		
 		try {
 			con=DBUtil.getConnection();
 			Statement s = con.createStatement();

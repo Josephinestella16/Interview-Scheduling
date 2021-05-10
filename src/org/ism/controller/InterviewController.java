@@ -27,7 +27,6 @@ public class InterviewController {
 			List<Candidate> candidates = service.getCandidates(req.getDomain(), req.getExperience(), req.getVacancies());
 			if(candidates.size()==0) {
 				System.out.println("No candidate found");
-				
 			}
 			for(Candidate c : candidates) {
 				System.out.println("Requirement ID : "+reqId);

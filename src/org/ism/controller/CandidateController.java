@@ -76,9 +76,9 @@ public class CandidateController {
 			Candidate candidate = new Candidate(firstname,lastname,password,dob,address,city,state,pincode,phone,degree,yop,marks,email,domain,yoe,company,rank,jobType,false,0);
 			boolean b = service.registerCandidate(candidate);
 			if(b)
-				System.out.println("Success");
+				System.out.println("Candidate Registered Successfully!..");
 			else
-				System.out.println("Failure");
+				System.out.println("Registration Failure!..");
 			
 		}else {
 			System.out.println("Candidate email already exists!");
